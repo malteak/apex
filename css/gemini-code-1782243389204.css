@@ -1,0 +1,39 @@
+:root {
+    --color-bg-base: #0B0E14;
+    --color-bg-surface: #151A25;
+    --color-bg-input: #1E2532;
+
+    --color-text-main: #FFFFFF;
+    --color-text-muted: #8A93A6;
+
+    --color-accent-primary: #00F0FF;
+    --color-accent-secondary: #FF003C;
+    
+    --glow-primary: 0 0 15px rgba(0, 240, 255, 0.4), 0 0 30px rgba(0, 240, 255, 0.2);
+    --glow-secondary: 0 0 15px rgba(255, 0, 60, 0.4), 0 0 30px rgba(255, 0, 60, 0.2);
+
+    --font-heading: 'Orbitron', sans-serif;
+    --font-text: 'Inter', sans-serif;
+
+    --transition-fast: 0.2s ease-in-out;
+    --transition-smooth: 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+
+    --radius-sm: 4px;
+    --radius-md: 8px;
+    --radius-lg: 16px;
+}
+
+body {
+    background-color: var(--color-bg-base);
+    color: var(--color-text-main);
+    font-family: var(--font-text);
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
